@@ -1,0 +1,85 @@
+<html>
+ <head>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Log in</title>
+  <style>
+   body{
+     background:rgba(0,0,0,0.7);
+   }
+   .d01
+   { 
+   border: 2px solid #FFFFFF;
+   background-color:white;
+   width: 500px;
+   height:500px;
+   overflow:auto;
+   margin-top:30px;
+   
+   margin-left:400px;
+   
+   padding: 3px,3px,3px,3px;
+
+   }
+   .d02
+   {
+    border:2px solid blue;
+	padding:15px;
+	margin: 15px;
+	background-color:#3B5998;
+	
+   }
+   .d03{
+    border:2px solid #DCDCDC;
+	padding:15px;
+	margin: 15px;
+	background-color:#FFFFFF;
+   }
+   .d04{
+    border:2px solid red;
+	padding:15px;
+	margin: 15px;
+	background-color:#D80000;
+	width: 464px;
+   }
+   .i01
+   {
+    height: 34px;
+	
+   }
+  </style>
+  <script>
+   function validateemail()  
+  {  
+  var x=document.myform.email.value;  
+  var atposition=x.indexOf("@");  
+  var dotposition=x.lastIndexOf(".");  
+  if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+  alert("Please enter a valid e-mail address " );  
+  return false;  
+  }  
+}  
+  </script>
+ </head>
+ <body>
+  <div class="d01">
+     <header class="w3-container" style="font-size:25px;">Sign up or log in to Foodies<a href="file:///C:/Users/nidhi/Desktop/yashi/finaltwo.html#"><i style="font-size:24px;margin-left:100px" class="fa">&#xf00d;</i></a></header>
+	 <hr>
+	 <a href="#">
+	 <div class="row d02"><div class="col-lg-3"><img class="i01" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEU6VZ////81Up0yT5xgc61+jbsvTZyXo8hFXaOirM0nSJmlrs7O1OUkRpkfQ5doerLr7fTHzeE9WKHV2umHlcDy9Pnd4eyut9O1vtdZbat5ibmWoceGk7/M0eSrs9G/xtxMY6ZvgLVIYaWJ8OFBAAAC40lEQVR4nO3c63KqMBRAYU9iqaLg/d7W2vd/yE5nzt/ihjTsvTNrPQDDNxIDJDqZEBERERERERERERERERFZL4QYqydF7ZMcXKyadju97m/zzhZ7n8SqCY/T8Z+kXa19sv2LdbztRLqflu6EsXm8i3kOhbF9WffxeROG9tHT50xYbTd9fb6E7Vt/nydhqO9DgH6EcdZ7BPoSVpdhPjfCajUU6EQYhwN9COPncKALYdgeChe2socIv8LmnAJ0IIzXJKADYZMyCD0IE69R+8Iw+F7Gi7CVv67wKQzTVKB1YbMsXBhSbtdcCOtT6cLUudC8MD7SgbaFdepsb17YDHw140YYZn8ANC2M+78QWl57qvoMw8PuvHC3fljL70k3q7qu/a0Bt9LZ8HhpgvbJDioKgffWp28SvqRA7TMdmvDJ6egWKBV+Ob1EJ1LhyfB09yyZ0PFHKBMeG+3TTEgkPFXap5mQSGj5nuxpIuELQsshRGg/hAjthxCh/RAitB9ChPZDiNB+CBHarwxh6PiJci3ZWnptnv3SWRm4ev2920IgPN86jvDTfKsqrD4EiMR0V98qyceU1kF3iXgEofLy2wjCe/FX6Yful+kIwn3xwpXuOv8Iws/ihcr3NPmFa+UdU/mFS+XdKPmFZ+UtU/mFr8WPQ+3nx/zCi/K2t/xC7VcA2YUH7b2Z2YXqWxezCzfFf4bqmzOzC2/Ff9M8ihdqT4f5hdrDMLtQ+VXiCEL93x7mFiq/ShxBOC9+HL5pTxbZhVPtySK7UNuXXXhQH4a5hWvtZ6fswnf1ySL3GvBZ/yqdbGcdSf4O8q3rCLpL+P8LvxdFu02qjiNo455Vxn6arhAitB9ChPZDiNB+CBHaDyFC+yFEaD+ECO2HEKH9ECK0H0KE9kOI0H4IEdoPIUL7IURoP4QI7YcQof0QIrQfQoT2Q4jQfggR2g8hQvshRGg/hAjthxCh/RAitB9ChPZDiNB+CBH26BsaQkVVLImVewAAAABJRU5ErkJggg=="></div><div class="col-lg-9" style="color:white;margin-top:8px">Continue with facebook</div></div></a>
+    <a href="#">
+	 <div class="row d03"><div class="col-lg-3"><img class="i01" src="data:image/png;base64,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"></div><div class="col-lg-9" style="color:grey;margin-top:8px">Continue with Google</div></div></a>
+	<div style="text-align:center;font-weight:bold">or</div>
+	<form name="myform" method="post" onsubmit=" return validateemail()" action="logresult.html">
+	Email:<input type="text" style="width:85%;margin-left:15px;" name="email"><br/>  
+	<input type="submit" class="d04"  value="Login">
+	</form>
+	
+	<footer style="color:grey;margin-left: 7px" class="w3-container">By logging in, you agree to Foodies's Terms of Service, Cookie Policy, Privacy Policy and Content Policies.</footer>
+  </div>
+ </body>
+</html>
